@@ -41,3 +41,8 @@ function initcount() {
     count=0;
     document.getElementById("countText").textContent = `count: ${count}`;
 }
+
+function showup() {
+    document.getElementById("page").innerHTML = 
+    '<p class="subtitle"><br>업데이트 내역: 그냥 만들어본 홈페이지 V1.0.1<br><br>쓸모없는 버튼 추가, 초기화 버튼 추가, 업데이트 내역 추가.</p>'
+}
